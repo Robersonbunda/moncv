@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form>
+        <div>
+            <label for="Nom">Nom:</label>
+           <input type="text" name="Nom" id="Nom">
+       </div>
+          
+       <div>
+           <label for="Post-nom">Post-nom:</label>
+           <input type="text" name="Post-nom" id="Post-nom">
+       </div>
+           
+       <div>
+           <label for="prenom">Prenom:</label>
+           <input type="text" name="Prenom" id="prenom">
+       </div>
+            
+       <div>
+           <label for="date">Date de naissance</label>
+           <input type="date" name="date" id="date"> 
+       </div>
+          
+       <div>
+           <label for="username">Nom d'utilisateur:</label> 
+           <input type="text" name="username" id="username">
+       </div>
+           
+       <div>
+           <label for="user-pwd">Mot de passe</label>
+           <input type="password" name="user-password" id="user-pwd">
+       </div>
+           
+       <div>
+           <label for="genre">Genre</label> <br>
+           <input type="radio" name="genre" id="Masculin">
+           <label for="masculin">Masculin</label>
+           <input type="radio" name="genre" id="féminin">
+           <label for="Féminin">Féminin</label> <br>
+       </div>
+       
+       <div class="para"><label for="sports">Sports</label> <br>
+           <input type="checkbox" name="Sports" id="Football">
+           <label for="soccer">Football</label>
+           <input type="checkbox" name="Sports" id="Basketball">
+           <label for="ball">Basketball</label>
+           <input type="checkbox" name="sports" id="baseball">
+           <label for="baseball">baseball</label>
+           <input type="checkbox" checked>
+           <label for="Sport">Football de rue</label>
+       </div>
+       <div>
+            <label for="file-select">Ajouté une photo:</label>
+           <input type="file" name="upload" id="file-select"> 
+       </div>
+      
+       <div>
+           <label for="biographie">Biographie:</label>
+           <textarea name="biographie" id="biographie" cols="20" rows="1"></textarea>
+       </div>
+       
+   
+       <div>
+           <label for="ville">Ville:</label>
+           <select name="ville" id="ville">
+               <option value="Kinshasa"> <mark> Kinshasa</option>
+               <option value="Lubumbashi">Lubumbashi</option>
+               <option value="Goma">Goma</option>
+               <option value="Paris">Paris</option>
+               <option value="Bogota">Bogota</option>
+               <option value="Kisangani">Kisangani</option>
+               <option value="Gemena">Gemena</option>
+       </div>          
+       </select>
+           
+       <fieldset>
+           <legend>Contacts</legend>
+   
+           <label>E-mail: <input type="email" name="email"></label>
+           <label>Téléphone: <input type="text" name="phone"></label>
+       </fieldset>
+   
+           <input type="submit" value="Envoyer"> <br>
+    </form>
+</body>
+</html>
